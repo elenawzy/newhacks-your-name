@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import BackgroundVideo from './components/BackgroundVideo';
 import Dashboard from './components/Dashboard';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -8,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/" exact component={Dashboard}/>
+          <Route path="/" exact component={BackgroundVideo}/>
           <Route path="/dashboard" component={Dashboard}/>
         </Switch>
       </div>
