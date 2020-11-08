@@ -19,9 +19,11 @@ function Dashboard() {
       <Row>
         <Col className="column" xs={12} md={4}>
           <h3>Welcome back, Jessica</h3>
+          <Link style={{ textDecoration: "none" }} to="sendmail">
           <Button variant="light" size="lg" block className="column-element">
             send a letter
           </Button>
+          </Link>
           <Link style={{ textDecoration: "none" }} to="inbox">
             <Button variant="light" size="lg" block className="column-element">
               inbox
