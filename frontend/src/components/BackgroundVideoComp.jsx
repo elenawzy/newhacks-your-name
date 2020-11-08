@@ -52,7 +52,7 @@ class BackgroundVideo extends Component {
                 onKeyPress= {(e) => {
                     if (e.key === 'Enter') {
                     console.log('Enter key pressed');
-                    this.props.history.push("/login");
+                    this.props.history.push("/dashboard");
                 }}
             }       
                 // onChange={this.handleName}

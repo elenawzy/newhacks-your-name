@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Switch, Route, Link, NavLink} from 'react-route
 function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
+    <Link to="/dashboard">
     <Navbar.Brand href="#home">
       <img
         src={logo}
@@ -17,6 +18,7 @@ function Navigation() {
         className="d-inline-block align-top"
       />{' '}
     </Navbar.Brand>
+    </Link>
     <Nav className="mr-auto">
       <Nav.Item className="brand-text">your name.</Nav.Item>
     </Nav>
@@ -24,7 +26,7 @@ function Navigation() {
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto"></Nav>
         <Nav>
-        <Link to="/poop" className="nav-text">
+        <Link to="/sendmail" className="nav-text">
             <Nav.Item>
                 send a letter
             </Nav.Item>
