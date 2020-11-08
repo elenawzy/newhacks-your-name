@@ -26,6 +26,10 @@ npm start
 * **Elena Wang** - *Frontend* - [elenawzy](https://github.com/elenawzy)
 * **Liam Dinning** - *Backend* - [lgdinning](https://github.com/lgdinning)
 
+## Prototype
+
+* [Figma Prototype](https://www.figma.com/file/ZrPk5B2KKrYMv8stXyqwdf/your-name?node-id=0%3A1)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
