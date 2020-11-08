@@ -1,0 +1,19 @@
+.column {
+    padding: 50px;
+}
+
+.column-element {
+    padding: 17px;
+    margin-bottom: 30px;
+    background-color: #c6e9ed;
+}
+.column-element:hover {
+    padding: 17px;
+    margin-bottom: 30px;
+    background-color: #a2cfd4;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
