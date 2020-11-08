@@ -24,7 +24,7 @@ function DashNav() {
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto"></Nav>
         <Nav>
-        <Link to="/poop" className="nav-text">
+        <Link to="/" className="nav-text">
             <Nav.Item>
                 logout
             </Nav.Item>

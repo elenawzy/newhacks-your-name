@@ -7,9 +7,23 @@
     margin-bottom: 30px;
     background-color: #c6e9ed;
 }
-.column-element:hover {
+.column-element-1 {
+    text-align: left;
     padding: 17px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #cadaf0;
+}
+
+.column-element-1:hover {
+    background-color: #a5c1e7;
+}
+.column-element-2 {
+    text-align: left;
+    padding: 17px;
+    margin-bottom: 20px;
+    background-color: #c6e9ed;
+}
+.column-element-2:hover, .column-element:hover{
     background-color: #a2cfd4;
 }
 
