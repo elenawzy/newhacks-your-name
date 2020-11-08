@@ -1,0 +1,21 @@
+.color-nav {
+    background-color: #A0CFF6;
+}
+
+.brand-text {
+    text-decoration: none;
+    color: #364F63;
+    font-weight: 800;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: #364F63;
+    padding-left: 30px;
+}
+
+.nav-text:hover {
+    text-decoration: none;
+    color: #7C949C;
+    padding-left: 30px;
+}
