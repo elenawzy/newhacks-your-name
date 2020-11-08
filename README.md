@@ -33,3 +33,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Thank you to Makoto Shinkai for making such a wonderful movie called *your name.* / *kimi no na wa*.
+
+We dedicate this app to you, who have bridged the distance between lovers.
