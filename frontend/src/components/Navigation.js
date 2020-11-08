@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Switch, Route, Link, NavLink} from 'react-route
 function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
-    <Navbar.Brand href="#home" className="brand-text">
+    <Navbar.Brand href="#home">
       <img
         src={logo}
         alt="logo"
@@ -16,8 +16,10 @@ function Navigation() {
         height="30"
         className="d-inline-block align-top"
       />{' '}
-      your name.
     </Navbar.Brand>
+    <Nav className="mr-auto">
+      <Nav.Item className="brand-text">your name.</Nav.Item>
+    </Nav>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto"></Nav>
@@ -27,12 +29,12 @@ function Navigation() {
                 send a letter
             </Nav.Item>
         </Link>
-        <Link to="/poop" className="nav-text">
+        <Link to="/inbox" className="nav-text">
             <Nav.Item>
                 inbox
             </Nav.Item>
         </Link>
-        <Link to="/poop" className="nav-text">
+        <Link to="/" className="nav-text">
             <Nav.Item>
                 logout
             </Nav.Item>
