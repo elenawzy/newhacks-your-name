@@ -3,6 +3,7 @@ import './App.css';
 import BackgroundVideo from './components/BackgroundVideoComp';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
+import Inbox from './components/Inbox';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" exact component={BackgroundVideo}/>
           <Route path="/login" exact component={Login} />
           <Route path="/dashboard" component={Dashboard}/>
+          <Route path="/inbox" component={Inbox}/>
         </Switch>
       </div>
     </Router>
