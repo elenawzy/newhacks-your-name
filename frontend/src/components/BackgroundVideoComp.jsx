@@ -1,11 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import TextField from '@material-ui/core/TextField';
 import classes from './BackgroundVideo.module.css';
 import source from "../assets/comet3.mp4";
-import {Link, Redirect, withRouter} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
-// import Button from '@material-ui/core/Button';
-import { browserHistory } from 'react-router';
 
 
 const WhiteTextField = withStyles({
@@ -33,11 +31,16 @@ const WhiteTextField = withStyles({
   })(TextField);
 
 
+class BackgroundVideo extends Component {
 
-  
-const BackgroundVideo = () => {
-    return(
-        <div className={classes.Container}>
+    constructor(props, context) {
+        super(props, context);
+       
+    }
+
+    render() {
+        return (
+            <div className={classes.Container}>
             <video autoPlay loop muted className={classes.Video}>
                 <source src={source} type="video/mp4"/>
                 Your browser does not support the video tag.
@@ -49,33 +52,19 @@ const BackgroundVideo = () => {
                 onKeyPress= {(e) => {
                     if (e.key === 'Enter') {
                     console.log('Enter key pressed');
-                    browserHistory.push('/login');
+                    this.props.history.push("/login");
                 }}
             }       
-              
-            
                 // onChange={this.handleName}
                 // value={this.props.name}
             />
-
-              
-            {/* <Button onClick= {(e) => {
-                
-                  console.log('Enter key pressed');
-                  history.pushState('/login');
-                }}
-              
-            >Default</Button> */}
-              
-
-
-
             </div>
-
-          
-
         </div>
-    )
+
+        )
+
+    }
+
 }
 
-export default BackgroundVideo
+export default withRouter(BackgroundVideo);
