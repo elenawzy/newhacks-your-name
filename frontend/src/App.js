@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import BackgroundVideo from './components/BackgroundVideoComp';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
